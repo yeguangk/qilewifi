@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.mz.sys.bo.SelOption" type="query"  pks="value" baseTable="res_doc_status">
+<sql></sql>
+<attrList>
+  <attr name="value" col="value" title=" " type="VARCHAR2" />
+  <attr name="text" col="text" title=" " type="VARCHAR2" /> 
+</attrList>
+<pkList></pkList>
+</mapping>

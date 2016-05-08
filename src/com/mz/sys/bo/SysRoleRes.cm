@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.mz.sys.bo.SysRoleRes" type="ddl"  pks="roleId,resNo" baseTable="sys_role_res">
+<sql>select a.*,b.page_id,b.page_url,b.page_name,b.parent_id,b.state as page_state,b.res_no as pageResNo ,c.elem_id,c.name,c.page_id as elemPageId,c.state as elemState,c.res_no as elemResNo from sys_resources a left join sys_page b on a.RES_NO = b.res_no left join sys_page_elem c on a.res_no = c.res_no</sql>
+<attrList>
+  <attr name="roleId" col="ROLE_ID" title=" " type="NUMBER" />
+  <attr name="resNo" col="RES_NO" title=" " type="VARCHAR2" />
+</attrList>
+</mapping>

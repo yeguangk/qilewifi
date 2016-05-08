@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.res.bo.PanelDef" type="ddl"  pks="panelId," baseTable="panel_def">
+<sql></sql>
+<attrList>
+  <attr name="panelId" col="PANEL_ID" title="panelId" ddlFlg="0" type="NUMBER" />
+  <attr name="screenId" col="SCREEN_ID" title="screenId" ddlFlg="0" type="NUMBER" />
+  <attr name="title" col="TITLE" title="title" ddlFlg="0" type="VARCHAR2" />
+  <attr name="panelDesc" col="PANEL_DESC" title="panelDesc" ddlFlg="0" type="VARCHAR2" />
+  <attr name="imageUrl" col="IMAGE_URL" title="imageUrl" ddlFlg="0" type="VARCHAR2" />
+  <attr name="createDate" col="CREATE_DATE" title="createDate" ddlFlg="0" type="DATE" />
+  <attr name="createMan" col="CREATE_MAN" title="createMan" ddlFlg="0" type="VARCHAR2" />
+  <attr name="displayClass" col="DISPLAY_CLASS" title="displayClass" ddlFlg="0" type="NUMBER" />
+</attrList>
+</mapping>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.res.bo.PublishLog" type="ddl"  pks="publishId," baseTable="publish_log">
+<sql></sql>
+<attrList>
+  <attr name="publishId" col="Publish_ID" title="publishId" ddlFlg="0" type="NUMBER" />
+  <attr name="custId" col="CUST_ID" title="custId" ddlFlg="0" type="NUMBER" />
+  <attr name="columnId" col="Column_id" title="columnId" ddlFlg="0" type="NUMBER" />
+  <attr name="fileUrl" col="File_Url" title="fileUrl" ddlFlg="0" type="VARCHAR2" />
+  <attr name="md5Num" col="MD5_NUM" title="md5Num" ddlFlg="0" type="VARCHAR2" />
+  <attr name="state" col="STATE" title="state" ddlFlg="0" type="NUMBER" />
+   <attr name="publishType" col="publish_type" title="publishType" ddlFlg="0" type="NUMBER" />
+  <attr name="columnName" col="column_Name" title="columnName" ddlFlg="1" type="VARCHAR2" />
+  
+</attrList>
+</mapping>

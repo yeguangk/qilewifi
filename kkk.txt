@@ -1,0 +1,406 @@
+{
+    "panel5": {
+        "title": "手机",
+        "image": "/url/img2.png",
+        "show": "0",
+        "boxList": [
+            {
+                "id": "box2",
+                "type": "1",
+                "title": "三星",
+                "more": "0",
+                "moreUrl": "",
+                "dispPreLine": 3,
+                "itemList": [
+                    {
+                        "id": "22",
+                        "actionType": 5,
+                        "param2": "10",
+                        "name": "三星GALAXY Note4 SM-N9106W 4G版 默认开通炫铃升级版",
+                        "name2": "￥5399",
+                        "image": "/res/unicom/phone/22.jpg",
+                        "href": "unicom_phone_detail.html",
+                        "param1": "/res/unicom/phone"
+                    },
+                    {
+                        "id": "23",
+                        "actionType": 5,
+                        "param2": "1",
+                        "name": "三星S5（SM-G9006V）4G版 默认开通炫铃升级版",
+                        "name2": "￥3699",
+                        "image": "/res/unicom/phone/23.jpg",
+                        "href": "unicom_phone_detail.html",
+                        "param1": "/res/unicom/phone"
+                    },
+                    {
+                        "id": "24",
+                        "actionType": 5,
+                        "param2": "1",
+                        "name": "三星GALAXY Note3 SM-N9002 3G套餐合约机",
+                        "name2": "￥3699",
+                        "image": "/res/unicom/phone/24.jpg",
+                        "href": "unicom_phone_detail.html",
+                        "param1": "/res/unicom/phone"
+                    }
+                ]
+            },
+            {
+                "id": "box2",
+                "type": "1",
+                "title": "魅族",
+                "more": "0",
+                "moreUrl": "",
+                "dispPreLine": 3,
+                "itemList": [
+                    {
+                        "id": "15",
+                        "actionType": 5,
+                        "param2": "1",
+                        "name": "魅族 MX4(16G) 4G版",
+                        "name2": "￥1999",
+                        "image": "/res/unicom/phone/15.jpg",
+                        "href": "unicom_phone_detail.html",
+                        "param1": "/res/unicom/phone"
+                    },
+                    {
+                        "id": "16",
+                        "actionType": 5,
+                        "param2": "1",
+                        "name": "魅族 MX4(16G) 4G版 默认开通炫铃升级版",
+                        "name2": "￥1999",
+                        "image": "/res/unicom/phone/16.jpg",
+                        "href": "unicom_phone_detail.html",
+                        "param1": "/res/unicom/phone"
+                    }
+                ]
+            },
+            {
+                "id": "box2",
+                "type": "1",
+                "title": "HTC",
+                "more": "0",
+                "moreUrl": "",
+                "dispPreLine": 3,
+                "itemList": [
+                    {
+                        "id": "17",
+                        "actionType": 5,
+                        "param2": "1",
+                        "name": "HTC One时尚版(M8Sw)4G版",
+                        "name2": "￥2449",
+                        "image": "/res/unicom/phone/17.jpg",
+                        "href": "unicom_phone_detail.html",
+                        "param1": "/res/unicom/phone"
+                    },
+                    {
+                        "id": "21",
+                        "actionType": 5,
+                        "param2": "1",
+                        "name": "HTC One时尚版(M8Sw)4G版 4G全国套餐合约机",
+                        "name2": "￥2999",
+                        "image": "/res/unicom/phone/21.jpg",
+                        "href": "unicom_phone_detail.html",
+                        "param1": "/res/unicom/phone"
+                    }
+                ]
+            },
+            {
+                "id": "box2",
+                "type": "1",
+                "title": "中兴",
+                "more": "0",
+                "moreUrl": "",
+                "dispPreLine": 3,
+                "itemList": [
+                    {
+                        "id": "19",
+                        "actionType": 5,
+                        "param2": "1",
+                        "name": "中兴（ZTE）Q801U 4G版",
+                        "name2": "￥499",
+                        "image": "/res/unicom/phone/19.jpg",
+                        "href": "unicom_phone_detail.html",
+                        "param1": "/res/unicom/phone"
+                    }
+                ]
+            }
+        ]
+    },
+    "panel6": {
+        "title": "增值业务",
+        "image": "/url/img2.png",
+        "show": "0",
+        "boxList": [
+            {
+                "id": "box2",
+                "type": "1",
+                "title": "中兴",
+                "more": "0",
+                "moreUrl": "",
+                "dispPreLine": 3,
+                "itemList": [
+                    {
+                        "id": "1",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:苹果iPhone6",
+                        "image": "/res/unicom/phone/1-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "1",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "1",
+                        "name": "套餐:苹果iPhone6",
+                        "image": "/res/unicom/phone/1-fee-2.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "2",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:苹果iPhone6 Plus",
+                        "image": "/res/unicom/phone/2-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "2",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "1",
+                        "name": "套餐:苹果iPhone6",
+                        "image": "/res/unicom/phone/2-fee-2.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "3",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:小米红米1S 3G套餐合约机",
+                        "image": "/res/unicom/phone/3-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "4",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:小米4 3G套餐合约机",
+                        "image": "/res/unicom/phone/4-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "5",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:小米红米Note 联通4G增强版",
+                        "image": "/res/unicom/phone/5-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "6",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:iPhone5S 联通4G版",
+                        "image": "/res/unicom/phone/6-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "7",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:华为AscendMate7 4G版",
+                        "image": "/res/unicom/phone/7-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "8",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:华为荣耀6（标准版）4G版",
+                        "image": "/res/unicom/phone/8-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "9",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:三星GALAXY Note4 SM-N9106W 4G版",
+                        "image": "/res/unicom/phone/9-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "10",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:iphone4S 3G套餐合约机",
+                        "image": "/res/unicom/phone/10-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "11",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:华为AscendP7 4G版",
+                        "image": "/res/unicom/phone/11-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "12",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:iPhone5S联通4G版",
+                        "image": "/res/unicom/phone/12-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "13",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:小米红米Note增强版4G版",
+                        "image": "/res/unicom/phone/13-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "14",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:华为荣耀3C4G版",
+                        "image": "/res/unicom/phone/14-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "15",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:魅族MX4(16G)4G版",
+                        "image": "/res/unicom/phone/15-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "16",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:魅族MX4(16G)4G版默认开通炫铃升级版",
+                        "image": "/res/unicom/phone/16-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "17",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:HTCOne时尚版(M8Sw)4G版",
+                        "image": "/res/unicom/phone/17-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "18",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:华为荣耀6（标准版）4G版4G全国套餐合约机",
+                        "image": "/res/unicom/phone/18-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "19",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:中兴（ZTE）Q801U4G版",
+                        "image": "/res/unicom/phone/19-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "20",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:诺基亚Lumia6303G套餐合约机",
+                        "image": "/res/unicom/phone/20-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "21",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:HTC One时尚版(M8Sw)4G版4G全国套餐合约机",
+                        "image": "/res/unicom/phone/21-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "21",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:三星GALAXYNote4SM-N9106W4G版默认开通炫铃升级版",
+                        "image": "/res/unicom/phone/22-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "22",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:三星S5（SM-G9006V）4G版默认开通炫铃升级版",
+                        "image": "/res/unicom/phone/23-fee-1.jpg",
+                        "href": ""
+                    },
+                    {
+                        "id": "23",
+                        "name2": "",
+                        "actionType": 5,
+                        "param2": "",
+                        "param1": "0",
+                        "name": "套餐:三星GALAXYNote3SM-N90023G套餐合约机",
+                        "image": "/res/unicom/phone/24-fee-1.jpg",
+                        "href": ""
+                    }
+                ]
+            }
+        ]
+    }
+}

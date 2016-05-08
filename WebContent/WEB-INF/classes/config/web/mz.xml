@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mozi>
+    <collector id="ddMgrWeb" class="com.mz.sys.web.DdWeb">
+	     <method name="qryCode"/>
+	     <method name="qryValue"/>
+	     <method name="save"/>
+    </collector>
+	<collector id="pkWeb" class="com.mz.sys.web.PkWeb">
+	     <method name="genPk"/>    
+    </collector>
+    <collector id="sysUser" class="com.mz.sys.web.SysUserWeb">
+	      <method name="saveOpt"/>
+	      <method name="queryPage"/>
+	      <method name="queryUserRole"/>
+	      <method name="resetPwd"/>
+	      <method name="modPassWord"/>            
+    </collector>
+    <collector id="sysRole" class="com.mz.sys.web.SysRoleWeb">
+	      <method name="saveOpt"/>
+	      <method name="queryPage"/>
+	      <method name="getJsonTree"/>	           
+    </collector>
+    <collector id="sysOrgInfoWeb" class="com.mz.sys.web.SysOrgInfoWeb">
+	      <method name="getSubNode"/>
+	     <method name="getSubInfo"/>
+	     <method name="save"/>
+	     <method name="qrySysUser"/>
+	     <method name="saveOrgUser"/>
+	     <method name="qrySysUserList"/>
+	     <method name="saveOrgUserList"/>
+    </collector>
+    <collector id="sysResWeb" class="com.mz.sys.web.SysResourceWeb">
+	     <method name="getSubNode"/>
+	     <method name="getSubInfo"/>
+	     <method name="save"/>
+    </collector>
+    <collector id="loginWeb" class="com.mz.sys.web.LoginWeb">
+	     <method name="login"/>
+	     <method name="loadAllMenu"/>
+	     <method name="getUserOrg"/>
+	     <method name="changOrg"/>    
+    </collector>
+    <collector id="systemParamsWeb" class="com.mz.sys.web.SystemParamsWeb">
+	     <method name="saveData"/>
+	     <method name="qryList"/>
+	     <method name="qryParm"/>
+    </collector>
+     <collector id="reloadWeb" class="com.mz.sys.web.ReloadWeb">
+	     <method name="reload"/>     
+    </collector>
+    <collector id="basAutoCodeWeb" class="com.mz.sys.web.BasAutoCodeWeb">
+	     <method name="getTreeJson"/>
+	     <method name="saveData"/>
+	     <method name="getBasAutoCode"/>
+    </collector>
+    
+    <collector id="clientUserWeb" class="com.mz.sys.web.ClientUserWeb">
+	     <method name="register"/>
+	     <method name="login"/>
+	     <method name="changePasswd"/>
+	     <method name="queryAllClientUserInfos"/>
+    </collector>
+</mozi>

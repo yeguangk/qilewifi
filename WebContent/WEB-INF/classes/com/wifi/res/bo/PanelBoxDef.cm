@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.res.bo.PanelBoxDef" type="ddl"  pks="boxId," baseTable="panel_box_def">
+<sql></sql>
+<attrList>
+  <attr name="boxId" col="BOX_ID" title="boxId" ddlFlg="0" type="NUMBER" />
+  <attr name="panelId" col="PANEL_ID" title="panelId" ddlFlg="0" type="NUMBER" />
+  <attr name="boxTitle" col="BOX_TITLE" title="boxTitle" ddlFlg="0" type="VARCHAR2" />
+  <attr name="boxDesc" col="BOX_DESC" title="boxDesc" ddlFlg="0" type="VARCHAR2" />
+  <attr name="boxType" col="BOX_TYPE" title="boxType" ddlFlg="0" type="NUMBER" />
+  <attr name="showNo" col="SHOW_NO" title="showNo" ddlFlg="0" type="NUMBER" />
+  <attr name="panelId2" col="PANEL_ID2" title="panelId2" ddlFlg="0" type="NUMBER" />
+  <attr name="resType" col="RES_TYPE" title="resType" ddlFlg="0" type="NUMBER" />
+  <attr name="showNum" col="SHOW_NUM" title="showNum" ddlFlg="0" type="NUMBER" />
+  <attr name="boxClass" col="BOX_CLASS" title="boxClass" ddlFlg="0" type="NUMBER" />
+</attrList>
+</mapping>

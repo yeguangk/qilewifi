@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.mz.sys.bo.SysRole" type="ddl"  pks="roleId" baseTable="sys_role">
+<sql>select * from seq_table  where 1=2</sql>
+<attrList>
+  <attr name="roleId" col="ROLE_ID" title="标识" type="NUMBER" />
+  <attr name="roleName" col="ROLE_NAME" title="名称" type="VARCHAR2" />
+  <attr name="departId" col="DEPART_ID" title="名称" type="VARCHAR2" />
+  <attr name="departName" col="DEPART_NAME" title="名称" type="VARCHAR2" />
+  <attr name="state" col="STATE" title="状态" type="NUMBER" />
+</attrList>
+</mapping>

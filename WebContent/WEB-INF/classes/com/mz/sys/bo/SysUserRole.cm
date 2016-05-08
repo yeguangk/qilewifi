@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.mz.sys.bo.SysUserRole" type="ddl"  pks="userId,roleId" baseTable="sys_user_role">
+<sql>select * from sys_user_role  where 1=2</sql>
+<attrList>
+  <attr name="userId" col="USER_ID" title=" " ddlFlg="0" type="NUMBER" />
+  <attr name="roleId" col="ROLE_ID" title=" " ddlFlg="0" type="NUMBER" />
+  <attr name="roleName" col="ROLE_NAME" title=" " ddlFlg="1" type="VARCHAR2" />
+  <attr name="orgCd" col="ORG_CD" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="orgName" col="ORG_NAME" title=" " ddlFlg="0" type="VARCHAR2" />
+</attrList>
+</mapping>

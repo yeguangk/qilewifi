@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.res.bo.PanelBoxItem" type="ddl"  pks="pdtlId," baseTable="panel_box_item">
+<sql></sql>
+<attrList>
+  <attr name="pdtlId" col="PDTL_ID" title="pdtlId" ddlFlg="0" type="NUMBER" />
+  <attr name="boxId" col="BOX_ID" title="boxId" ddlFlg="0" type="NUMBER" />
+  <attr name="columnId" col="column_Id" title="columnId" ddlFlg="0" type="NUMBER" />
+  <attr name="showNo" col="SHOW_NO" title="showNo" ddlFlg="0" type="NUMBER" />
+  <attr name="columnName" col="column_Name" title="columnName" ddlFlg="1" type="VARCHAR2" />
+</attrList>
+</mapping>

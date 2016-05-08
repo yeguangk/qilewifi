@@ -1,0 +1,26 @@
+<project name="YUI_Compressor" default="js.minify" basedir="./..">
+	<property name="project.dir" value="${basedir}/jsmin-ant">
+	</property>
+	<property name="project.src.dir" value="${basedir}/WebContent/ext/ux">
+	</property>
+	
+	<!-- 最小化js文件-->	 
+	<target name="js.minify" depends="js.concat">
+		<java jar="${project.dir}/lib/yuicompressor-2.4.7.jar" fork="true" failonerror="true">
+			<arg line="${project.src.dir}/ext-ux-all.js" />
+			<arg line="--charset UTF-8"/>
+			<arg line="-o ${project.src.dir}/ext-ux-all-min.js" />
+		</java>
+	</target>
+	
+	<target name="js.concat">
+		<concat destfile="${project.src.dir}/ext-ux-all.js">
+			<filelist dir="${basedir}/WebContent/ext" files="ext-lang-zh_CN.js,HttpRequest.js,ext-vtypes.js" />
+			<filelist dir="${basedir}/WebContent/ext/basepanel" files="ExtNames.js" />
+			<filelist dir="${project.src.dir}" files="Ext.ux.ZuheBox.js,Ext.ux.BasePageGrid.js,Ext.ux.BaseForm.js,Ext.ux.BaseGird.js,Ext.ux.BaseComBox.js,Ext.ux.BaseGridBox.js,Ext.ux.BaseTree.js,Ext.ux.BaseTreeBox.js,Ext.ux.BaseEdGrid.js,Ext.ux.form.LovCombo.js,CheckColumn.js,Spinner.js,SpinnerField.js,DateTimeField.js,provinceAndCity.js,zhidanFrm.js" />
+			<filelist dir="${basedir}/WebContent/ext/basepanel" files="baseFun.js" />
+			<filelist dir="${basedir}/WebContent/common" files="box.js" />
+		</concat>
+	</target>
+	
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.mz.sys.bo.SysOptionValue" type="ddl"  pks="valueId" baseTable="SYS_OPTION_VALUE">
+<sql>select * from SYS_OPTION_VALUE  where rownum&lt;0</sql>
+<attrList>
+  <attr name="valueId" col="VALUE_ID" title="选项值标识" type="NUMBER" />
+  <attr name="optionNo" col="OPTION_NO" title="选项编号" type="VARCHAR2" />
+  <attr name="value" col="VALUE" title="选项值" type="VARCHAR2" />
+  <attr name="text" col="TEXT" title="选项值中文" type="VARCHAR2" />
+  <attr name="sort" col="SORT" title="序号" type="NUMBER" />
+</attrList>
+<pkList>
+   <pk attr="valueId" type="D" seqname=""/>
+</pkList>
+</mapping>

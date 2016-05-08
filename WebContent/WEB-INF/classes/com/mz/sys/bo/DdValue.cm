@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.mz.sys.bo.DdValue" type="ddl"  pks="ddId," baseTable="dd_value">
+<sql></sql>
+<attrList>
+  <attr name="ddId" col="dd_id" title="ddId" ddlFlg="0" type="NUMBER" />
+  <attr name="ddCode" col="dd_code" title="ddCode" ddlFlg="0" type="VARCHAR2" />
+  <attr name="ddValue" col="dd_value" title="ddValue" ddlFlg="0" type="VARCHAR2" />
+  <attr name="ddText" col="dd_text" title="ddText" ddlFlg="0" type="VARCHAR2" />
+  <attr name="ddSort" col="dd_sort" title="ddSort" ddlFlg="0" type="NUMBER" />
+</attrList>
+</mapping>

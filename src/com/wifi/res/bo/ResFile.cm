@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.res.bo.ResFile" type="ddl"  pks="fileId," baseTable="res_file">
+<sql></sql>
+<attrList>
+  <attr name="fileId" col="FILE_ID" title="fileId" ddlFlg="0" type="NUMBER" />
+  <attr name="resId" col="RES_ID" title="resId" ddlFlg="0" type="NUMBER" />
+  <attr name="fileType" col="FILE_TYPE" title="fileType" ddlFlg="0" type="VARCHAR2" />
+  <attr name="filePath" col="FILE_PATH" title="filePath" ddlFlg="0" type="VARCHAR2" />
+  <attr name="pre" col="PRE" title="pre" ddlFlg="0" type="VARCHAR2" />
+  <attr name="uploadDate" col="UPLOAD_DATE" title="uploadDate" ddlFlg="0" type="DATETIME" />
+  <attr name="subResId" col="SUB_RES_ID" title="subResId" ddlFlg="0" type="NUMBER" />
+  <attr name="seqId" col="SEQ_ID" title="seqId" ddlFlg="0" type="NUMBER" />
+  <attr name="wbUrl" col="wb_url" title="wbUrl" ddlFlg="0" type="VARCHAR2" />
+</attrList>
+</mapping>

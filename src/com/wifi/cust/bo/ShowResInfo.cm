@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.cust.bo.ShowResInfo" type="ddl"  pks="resId," baseTable="res_info">
+<sql></sql>
+<attrList>
+  <attr name="resId" col="RES_ID" title="resId" ddlFlg="1" type="NUMBER" />
+  <attr name="resType" col="RES_TYPE" title="resType" ddlFlg="1" type="NUMBER" />
+  <attr name="resTitle" col="RES_TITLE" title="resTitle" ddlFlg="1" type="VARCHAR2" />
+  <attr name="resPic" col="RES_PIC" title="resPic" ddlFlg="1" type="VARCHAR2" />
+  <attr name="resUrl" col="RES_URL" title="resUrl" ddlFlg="1" type="VARCHAR2" />
+  <attr name="typeId" col="TYPE_ID" title="typeId" ddlFlg="1" type="NUMBER" />
+  <attr name="regionId" col="REGION_ID" title="regionId" ddlFlg="1" type="VARCHAR2" />
+  <attr name="checkStatus" col="CHECK_STATUS" title="checkStatus" ddlFlg="1" type="NUMBER" />
+  <attr name="checkMan" col="CHECK_MAN" title="checkMan" ddlFlg="1" type="VARCHAR2" />
+  <attr name="checkDate" col="CHECK_DATE" title="checkDate" ddlFlg="1" type="DATE" />
+  <attr name="publishMan" col="PUBLISH_MAN" title="publishMan" ddlFlg="1" type="VARCHAR2" />
+  <attr name="publishDate" col="PUBLISH_DATE" title="publishDate" ddlFlg="1" type="DATE" />
+  <attr name="createDate" col="CREATE_DATE" title="createDate" ddlFlg="1" type="DATE" />
+  <attr name="createMan" col="CREATE_MAN" title="createMan" ddlFlg="1" type="VARCHAR2" />
+  <attr name="typeName" col="TYPE_NAME" title="typeName" ddlFlg="1" type="VARCHAR2" />
+  <attr name="pdtlId" col="PDTL_ID" title="pdtlId" ddlFlg="1" type="NUMBER" />
+  
+</attrList>
+</mapping>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function postData(strUrl,strXML){
+    if (strUrl.indexOf("?") >=0)
+      strUrl = strUrl +"&url_source=XMLHTTP";
+    else
+      strUrl = strUrl +"?url_source=XMLHTTP";
+    
+    var XMLSender = newXMLHTTP();
+    if(XMLSender==null){
+      return '不能建立XMLHTTP对象';
+    }
+
+    XMLSender.open("POST",strUrl,false);
+    //注意Content-Type的设置不能为www
+    XMLSender.setRequestHeader("Content-Type","text/html; charset=UTF-8");
+    XMLSender.send(strXML);
+    if(XMLSender.status!=200){
+      return 'URL请求失败，请确认服务器是否正常(或连接是否正确).';
+    }else{
+      return XMLSender.responseText;
+    }
+}
+function newXMLHTTP(){
+    var XMLSender=null;
+    var msXmlHttp = new Array(
+                'Msxml2.XMLHTTP.5.0',
+                'Msxml2.XMLHTTP.4.0',
+                'Msxml2.XMLHTTP.3.0',
+                'Msxml2.XMLHTTP',
+                'Microsoft.XMLHTTP'
+                );
+                
+    if(window.XMLHttpRequest) { 
+        return new XMLHttpRequest(); 
+    }else if (window.ActiveXObject){        
+        for(var i = 0; i < msXmlHttp.length; i++){
+            try{                
+                return new ActiveXObject(msXmlHttp[i]);
+            }catch (e){
+                XMLSender = null;
+            }
+        }
+    }else{
+      return null;
+    }    
+}
+
+function test(){
+	var strUrl=document.getElementById("urlId").value;
+	var strXML=document.getElementById("xmlId").value;
+	var html =postData(strUrl,strXML);
+	document.getElementById("rstId").value=html;
+}
+</script>
+</head>
+<body>
+<table>
+<tr>
+	<td>
+	  URL：<input id="urlId" type="text" size="80" value="http://localhost:8080/lc/IntfWeb.cll?method=uptStatus&no=G01-001&sl=1&dt=2014-04-10 09:47:02">
+	  <input type="button" value="测试" onclick="javascript:test();"/>
+	</td>
+</tr>
+
+<tr>
+<td>POST内容：</td>
+</tr>
+<tr>
+	<td>
+	  <textarea id="xmlId" rows="10" cols="80" style="width:100%" ></textarea>
+	</td>
+</tr>
+
+<tr>
+<td>处理结果</td>
+</tr>
+<tr>
+<td >
+  <textarea id="rstId" rows="10" cols="80" style="width:100%" ></textarea>
+</td>
+</tr>
+
+</table>
+</body>
+</html>

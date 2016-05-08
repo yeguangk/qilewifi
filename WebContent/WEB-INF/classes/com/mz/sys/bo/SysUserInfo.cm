@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.mz.sys.bo.SysUserInfo" type="ddl"  pks="userId" baseTable="sys_user">
+<sql>select * from SYS_USER  where rownum&lt;0</sql>
+<attrList>
+  <attr name="userId" col="USER_ID" title="用户标识" type="NUMBER" />
+  <attr name="name" col="NAME" title="用户名" type="VARCHAR2" />
+  <attr name="loginCode" col="LOGIN_CODE" title="账号" type="VARCHAR2" />
+  <attr name="password" col="PASSWORD" title="密码" type="VARCHAR2" />
+  <attr name="departId" col="DEPART_ID" title="部门标识" type="VARCHAR2" />
+  <attr name="departName" col="DEPART_NAME" title="部门标识" type="VARCHAR2" />
+  <attr name="state" col="STATE" title="状态" type="NUMBER" />
+  <attr name="userTypeCd" col="USER_TYPE_CD" title="用户类型" type="VARCHAR2" />
+</attrList>
+<pkList>
+   <pk attr="userId" type="D" seqname=""/>
+</pkList>
+</mapping>

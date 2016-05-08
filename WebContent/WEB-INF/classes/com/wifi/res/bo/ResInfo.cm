@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.res.bo.ResInfo" type="ddl"  pks="resId," baseTable="res_info">
+<sql></sql>
+<attrList>
+  <attr name="resId" col="RES_ID" title="resId" ddlFlg="0" type="NUMBER" />
+  <attr name="resType" col="RES_TYPE" title="resType" ddlFlg="0" type="NUMBER" />
+  <attr name="resTitle" col="RES_TITLE" title="resTitle" ddlFlg="0" type="VARCHAR2" />
+  
+  <attr name="checkStatus" col="CHECK_STATUS" title="checkStatus" ddlFlg="0" type="NUMBER" />
+  <attr name="checkMan" col="CHECK_MAN" title="checkMan" ddlFlg="0" type="VARCHAR2" />
+  <attr name="checkDate" col="CHECK_DATE" title="checkDate" ddlFlg="0" type="DATETIME" />
+  
+  <attr name="publishMan" col="PUBLISH_MAN" title="publishMan" ddlFlg="0" type="VARCHAR2" />
+  <attr name="publishDate" col="PUBLISH_DATE" title="publishDate" ddlFlg="0" type="DATETIME" />
+  <attr name="createDate" col="CREATE_DATE" title="createDate" ddlFlg="0" type="DATETIME" />
+  
+  <attr name="createMan" col="CREATE_MAN" title="createMan" ddlFlg="0" type="VARCHAR2" />  
+  <attr name="feeType" col="FEE_TYPE" title="feeType" ddlFlg="0" type="NUMBER" />
+   <attr name="price" col="PRICE" title="price" ddlFlg="0" type="NUMBER" />
+  <attr name="resDesc" col="RES_DESC" title="resDesc" ddlFlg="0" type="VARCHAR2" />
+  <attr name="resCode" col="RES_CODE" title="resCode" ddlFlg="0" type="VARCHAR2" />
+  <attr name="fileSize" col="FILE_SIZE" title="fileSize" ddlFlg="0" type="NUMBER" />
+  <attr name="author" col="AUTHOR" title="author" ddlFlg="0" type="VARCHAR2" />
+  <attr name="outUrl" col="out_url" title="outUrl" ddlFlg="0" type="VARCHAR2" />
+  
+  <attr name="reserve1" col="reserve1" title="reserve1" ddlFlg="0" type="VARCHAR2" />
+  <attr name="reserve2" col="reserve2" title="reserve2" ddlFlg="0" type="VARCHAR2" />
+  <attr name="reserve3" col="reserve3" title="reserve3" ddlFlg="0" type="VARCHAR2" />
+  <attr name="reserve4" col="reserve4" title="reserve4" ddlFlg="0" type="VARCHAR2" />
+  <attr name="reserve5" col="reserve5" title="reserve5" ddlFlg="0" type="VARCHAR2" />
+  
+  /*此处的type只有4中类型 DATE DATETIME VARCHAR2 NUMBER 看完，这一行删除*/
+</attrList>
+</mapping>

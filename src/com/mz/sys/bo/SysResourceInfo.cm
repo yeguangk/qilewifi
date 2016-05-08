@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.mz.sys.bo.SysResourceInfo" type="ddl"  pks="resNo" baseTable="sys_resource_info">
+<sql>select * from SYS_RESOURCE_INFO where 1=2 </sql>
+<attrList>
+  <attr name="resNo" col="RES_NO" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="resName" col="RES_NAME" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="resType" col="RES_TYPE" title=" " ddlFlg="0" type="NUMBER" />
+  <attr name="resUrl" col="RES_URL" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="parentNo" col="PARENT_NO" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="remarks" col="REMARKS" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="orgCd" col="ORG_CD" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="appId" col="APP_ID" title=" " ddlFlg="0" type="VARCHAR2" /> 
+  <attr name="seqNum" col="SEQ_NUM" title=" " ddlFlg="0" type="NUMBER" />  
+  <attr name="parentName" col="PARENT_NAME" title=" " ddlFlg="1" type="VARCHAR2" />
+  <attr name="subcount" col="subcount" title=" " ddlFlg="1" type="NUMBER" />
+</attrList>
+</mapping>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.order.bo.OrderInfo" type="ddl"  pks="orderId," baseTable="order_info">
+<sql></sql>
+<attrList>
+  <attr name="orderId" col="order_id" title="orderId" ddlFlg="0" type="NUMBER" />
+  <attr name="orderCode" col="order_code" title="orderCode" ddlFlg="0" type="VARCHAR2" />
+  <attr name="resId" col="res_id" title="resId" ddlFlg="0" type="NUMBER" />
+  <attr name="userId" col="user_id" title="userId" ddlFlg="0" type="NUMBER" />
+  <attr name="amount" col="amount" title="amount" ddlFlg="0" type="NUMBER" />
+  <attr name="orderDate" col="order_date" title="orderDate" ddlFlg="0" type="DATETIME" />
+  <attr name="expDate" col="exp_date" title="expDate" ddlFlg="0" type="DATETIME" />
+  
+</attrList>
+</mapping>

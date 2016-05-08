@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.mz.sys.bo.BasAutoCode" type="ddl"  pks="keyid" baseTable="bas_auto_code">
+<sql>select * from bas_auto_code where 1=2</sql>
+<attrList>
+  <attr name="keyid" col="keyid" title=" " type="VARCHAR2" />
+  <attr name="codeClassCd" col="code_class_cd" title=" " type="VARCHAR2" />
+  <attr name="codeClassName" col="code_class_name" title=" " type="VARCHAR2" />  
+  <attr name="codePre" col="code_pre" title=" " type="VARCHAR2" />
+  <attr name="splitter" col="splitter" title=" " type="VARCHAR2" />
+  <attr name="yearType" col="year_type" title=" " type="VARCHAR2" />  
+  <attr name="sno" col="sno" title=" " type="NUMBER" />
+  <attr name="codeExample" col="code_example" title=" " type="VARCHAR2" />
+  <attr name="codeRangeCd" col="code_range_cd" title=" " type="VARCHAR2" />
+  <attr name="snFlg" col="SN_FLG" title=" " type="VARCHAR2" />
+  <attr name="createOrgCd" col="CREATE_ORG_CD" title=" " type="VARCHAR2" />
+  <attr name="createOrgName" col="CREATE_ORG_NAME" title=" " type="VARCHAR2" />
+</attrList>
+<pkList>
+   <pk attr="" type="A" seqname=""/>
+   <pk attr="" type="B" seqname=""/>
+   <pk attr="" type="C" seqname=""/>
+</pkList>
+</mapping>

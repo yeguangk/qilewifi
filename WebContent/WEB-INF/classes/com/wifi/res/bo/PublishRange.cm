@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.res.bo.PublishRange" type="ddl"  pks="publishId,regionNo,pointId" baseTable="publish_range">
+<sql></sql>
+<attrList>
+  <attr name="publishId" col="Publish_ID" title="publishId" ddlFlg="0" type="NUMBER" />
+  <attr name="regionNo" col="REGION_NO" title="regionNo" ddlFlg="0" type="VARCHAR2" />
+  <attr name="pointId" col="POINT_ID" title="pointId" ddlFlg="0" type="NUMBER" />
+  
+  <attr name="regionName" col="region_Name" title="regionName" ddlFlg="1" type="VARCHAR2" />
+  <attr name="pointName" col="point_Name" title="pointName" ddlFlg="1" type="VARCHAR2" />
+</attrList>
+</mapping>

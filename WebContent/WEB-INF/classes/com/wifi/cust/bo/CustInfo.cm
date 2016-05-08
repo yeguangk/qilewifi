@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.cust.bo.CustInfo" type="ddl"  pks="custId," baseTable="cust_info">
+<sql></sql>
+<attrList>
+  <attr name="custId" col="CUST_ID" title="custId" ddlFlg="0" type="NUMBER" />
+  <attr name="custType" col="CUST_TYPE" title="custType" ddlFlg="0" type="NUMBER" />
+  <attr name="name" col="NAME" title="name" ddlFlg="0" type="VARCHAR2" />
+  <attr name="jc" col="JC" title="jc" ddlFlg="0" type="VARCHAR2" />
+  <attr name="phone" col="PHONE" title="phone" ddlFlg="0" type="VARCHAR2" />
+  <attr name="fax" col="FAX" title="fax" ddlFlg="0" type="VARCHAR2" />
+  <attr name="address" col="ADDRESS" title="address" ddlFlg="0" type="VARCHAR2" />
+  <attr name="linkMan" col="LINK_MAN" title="linkMan" ddlFlg="0" type="VARCHAR2" />
+  <attr name="accNo" col="ACC_NO" title="accNo" ddlFlg="0" type="VARCHAR2" />
+  <attr name="pwd" col="PWD" title="pwd" ddlFlg="0" type="VARCHAR2" />
+</attrList>
+</mapping>

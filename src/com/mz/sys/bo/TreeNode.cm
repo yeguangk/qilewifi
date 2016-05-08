@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.mz.sys.bo.TreeNode" type="query"  pks="nodeId" baseTable="">
+<sql></sql>
+<attrList>
+  <attr name="nodeId" col="node_id" title=" " type="VARCHAR2" />
+  <attr name="nodeTxt" col="node_txt" title=" " type="VARCHAR2" />
+  <attr name="parentId" col="PARENT_ID" title=" " type="VARCHAR2" />
+  <attr name="locationKindCd" col="location_kind_cd" title=" " type="VARCHAR2" />
+  <attr name="kid" col="kid" title=" " type="VARCHAR2" />
+  <attr name="isLeaf" col="is_leaf" title=" " type="VARCHAR2" />
+</attrList>
+<pkList>
+   <pk attr="nodeId" type="A" seqname=""/>
+</pkList>
+</mapping>

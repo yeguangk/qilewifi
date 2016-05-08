@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.mz.sys.bo.SystemParameters" type="ddl"  pks="keyid" baseTable="SYSTEM_PARAMETERS">
+<sql>select * from SYSTEM_PARAMETERS where 1=2 </sql>
+<attrList>
+  <attr name="keyid" col="KEYID" title=" " type="VARCHAR2" />
+  <attr name="orgCd" col="ORG_CD" title=" " type="VARCHAR2" />
+  <attr name="orgName" col="ORG_NAME" title=" " type="VARCHAR2" />
+  <attr name="paraType" col="PARA_TYPE" title=" " type="VARCHAR2" />
+  <attr name="paraName" col="PARA_NAME" title=" " type="VARCHAR2" />
+  <attr name="paraCode" col="PARA_CODE" title=" " type="VARCHAR2" />
+  <attr name="paraValue" col="PARA_VALUE" title=" " type="VARCHAR2" />
+  <attr name="remark" col="REMARK" title=" " type="VARCHAR2" />
+  <attr name="state" col="STATE" title=" " type="VARCHAR2" />
+  <attr name="createbyId" col="CREATEBY_ID" title=" " type="NUMBER" />
+  <attr name="createbyName" col="CREATEBY_NAME" title=" " type="VARCHAR2" />
+  <attr name="createDate" col="CREATE_DATE" title=" " type="DATETIME" />
+  <attr name="modifybyId" col="MODIFYBY_ID" title=" " type="NUMBER" />
+  <attr name="modifybyName" col="MODIFYBY_NAME" title=" " type="VARCHAR2" />
+  <attr name="modifyDate" col="MODIFY_DATE" title=" " type="DATETIME" />
+</attrList>
+</mapping>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.column.bo.ColumnInfo" type="ddl"  pks="columnId," baseTable="column_info">
+<sql></sql>
+<attrList>
+  <attr name="columnId" col="column_id" title="classId" ddlFlg="0" type="NUMBER" />
+  <attr name="parentColumnId" col="parent_column_id" title="parentColumnId" ddlFlg="0" type="NUMBER" />
+  <attr name="custId" col="CUST_ID" title="custId" ddlFlg="0" type="NUMBER" />
+  <attr name="columnName" col="column_name" title="columnName" ddlFlg="0" type="VARCHAR2" />
+  <attr name="columnType" col="column_type" title="columnType" ddlFlg="0" type="NUMBER" />
+  <attr name="defaultFlag" col="default_flag" title="defaultFlag" ddlFlg="0" type="NUMBER" />
+</attrList>
+</mapping>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.mz.sys.bo.SysOrgInfo" type="ddl"  pks="orgCd" baseTable="SYS_ORG_INFO">
+<sql>select * from SYS_ORG_INFO where 1=2 </sql>
+<attrList>
+  <attr name="orgCd" col="ORG_CD" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="orgName" col="ORG_NAME" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="orgMinName" col="ORG_MIN_NAME" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="parentCd" col="PARENT_CD" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="orgEnname" col="ORG_ENNAME" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="contactMan" col="CONTACT_MAN" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="contactTel" col="CONTACT_TEL" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="contactAddr" col="CONTACT_ADDR" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="zipCd" col="ZIP_CD" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="faxTel" col="FAX_TEL" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="gsNo" col="GS_NO" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="taxNo" col="TAX_NO" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="province" col="PROVINCE" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="city" col="CITY" title=" " ddlFlg="0" type="VARCHAR2" />
+</attrList>
+</mapping>

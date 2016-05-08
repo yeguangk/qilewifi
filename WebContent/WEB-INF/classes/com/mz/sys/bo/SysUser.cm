@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.mz.sys.bo.SysUser" type="ddl"  pks="userId" baseTable="sys_user">
+<sql>select * from sys_user  where 1=2</sql>
+<attrList>
+  <attr name="userId" col="USER_ID" title="用户标识" type="NUMBER" />
+  <attr name="name" col="NAME" title="用户名" type="VARCHAR2" />
+  <attr name="loginCode" col="LOGIN_CODE" title="登录帐号" type="VARCHAR2" />
+  <attr name="password" col="PASSWORD" title="登录密码" type="VARCHAR2" />
+  <attr name="departId" col="DEPART_ID" title="部门标识" type="VARCHAR2" />
+  <attr name="state" col="STATE" title="状态" type="NUMBER" />
+  <attr name="userTypeCd" col="USER_TYPE_CD" title="用户类型" type="VARCHAR2" />
+  <attr name="userTypeNames" col="USER_TYPE_NAMES" title="" ddlFlg="0" type="VARCHAR2" />
+  <attr name="departName" col="DEPART_NAME" title="" ddlFlg="0" type="VARCHAR2" />
+  <attr name="sexFlg" col="SEX_FLG" title="" ddlFlg="0" type="VARCHAR2" />
+  <attr name="roleNames" col="ROLE_NAMES" title="" ddlFlg="0" type="VARCHAR2" />
+  <attr name="birthDay" col="BIRTHDAY" title="" ddlFlg="0" type="DATE" />
+</attrList>
+</mapping>

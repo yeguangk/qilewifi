@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.cust.bo.UpdateRange" type="ddl"  pks="uptId,regionNo,pointId" baseTable="update_range">
+<sql></sql>
+<attrList>
+  <attr name="uptId" col="UPT_ID" title="uptId" ddlFlg="0" type="NUMBER" />
+  <attr name="regionNo" col="REGION_NO" title="regionNo" ddlFlg="0" type="VARCHAR2" />
+  <attr name="pointId" col="POINT_ID" title="pointId" ddlFlg="0" type="NUMBER" />
+  
+  <attr name="regionName" col="region_Name" title="regionName" ddlFlg="1" type="VARCHAR2" />
+  <attr name="pointName" col="point_Name" title="pointName" ddlFlg="1" type="VARCHAR2" />
+
+</attrList>
+</mapping>

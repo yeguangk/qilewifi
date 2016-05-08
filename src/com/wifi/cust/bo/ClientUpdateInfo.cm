@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.cust.bo.ClientUpdateInfo" type="ddl"  pks="uptId," baseTable="client_update_info">
+<sql></sql>
+<attrList>
+  <attr name="uptId" col="UPT_ID" title="uptId" ddlFlg="0" type="NUMBER" />
+  <attr name="platformNo" col="PLATFORM_NO" title="platformNo" ddlFlg="0" type="VARCHAR2" />
+
+  <attr name="pkgType" col="PKG_TYPE" title="pkgType" ddlFlg="0" type="NUMBER" />
+  <attr name="versionInfo" col="VERSION_INFO" title="versionInfo" ddlFlg="0" type="VARCHAR2" />
+  <attr name="pkgUrl" col="PKG_URL" title="pkgUrl" ddlFlg="0" type="VARCHAR2" />
+  <attr name="md5Num" col="MD5_NUM" title="md5Num" ddlFlg="0" type="VARCHAR2" />
+  <attr name="updateMethod" col="UPDATE_METHOD" title="updateMethod" ddlFlg="0" type="NUMBER" />
+  <attr name="state" col="STATE" title="state" ddlFlg="0" type="NUMBER" />
+  
+  
+  <attr name="columnId" col="column_Id" title="columnId" ddlFlg="0" type="NUMBER" />
+  <attr name="custId" col="cust_Id" title="custId" ddlFlg="0" type="NUMBER" />  
+  
+  <attr name="columnName" col="column_Name" title="columnName" ddlFlg="1" type="VARCHAR2" />
+  
+</attrList>
+</mapping>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.res.bo.ResAttr" type="ddl"  pks="attrId," baseTable="res_attr">
+<sql></sql>
+<attrList>
+  <attr name="attrId" col="ATTR_ID" title="attrId" ddlFlg="0" type="NUMBER" />
+  <attr name="resId" col="RES_ID" title="resId" ddlFlg="0" type="NUMBER" />
+  <attr name="attrName" col="ATTR_NAME" title="attrName" ddlFlg="0" type="VARCHAR2" />
+  <attr name="attrZh" col="ATTR_ZH" title="attrZh" ddlFlg="0" type="VARCHAR2" />
+  <attr name="attrVal" col="ATTR_VAL" title="attrVal" ddlFlg="0" type="VARCHAR2" />
+</attrList>
+</mapping>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.mz.sys.bo.SysOrgUserListInfo" type="ddl"  pks="keyid" baseTable="sys_org_user_list">
+<sql>select * from sys_org_user_list where 1=2 </sql>
+<attrList>
+  <attr name="keyid" col="KEYID" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="orgUserId" col="ORG_USER_ID" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="orgId" col="ORG_ID" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="orgName" col="ORG_NAME" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="userId" col="USER_ID" title=" " ddlFlg="0" type="NUMBER" />
+  <attr name="userName" col="USER_NAME" title=" " ddlFlg="0" type="VARCHAR2" />  
+  <attr name="parentOrgId" col="PARENT_ORG_ID" title=" " ddlFlg="0" type="VARCHAR2" />   
+  <attr name="attachOrgName" col="ATTACH_ORG_NAME" title=" " ddlFlg="1" type="VARCHAR2" />
+  <attr name="attachUserName" col="attach_user_name" title=" " ddlFlg="1" type="VARCHAR2" />
+</attrList>
+</mapping>

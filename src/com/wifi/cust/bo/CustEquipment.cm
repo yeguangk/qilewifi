@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.cust.bo.CustEquipment" type="ddl"  pks="equipId," baseTable="cust_equipment">
+<sql></sql>
+<attrList>
+  <attr name="equipId" col="equip_id" title="equipId" ddlFlg="0" type="NUMBER" />
+  <attr name="equipNo" col="EQUIP_NO" title="equipNo" ddlFlg="0" type="VARCHAR2" />
+  <attr name="equipName" col="EQUIP_NAME" title="equipName" ddlFlg="0" type="VARCHAR2" />
+  <attr name="custId" col="CUST_ID" title="custId" ddlFlg="0" type="NUMBER" />
+  <attr name="pointId" col="POINT_ID" title="pointId" ddlFlg="0" type="NUMBER" />
+  <attr name="groupId" col="GROUP_ID" title="groupId" ddlFlg="0" type="NUMBER" />
+  <attr name="state" col="STATE" title="state" ddlFlg="0" type="NUMBER" />
+  <attr name="name" col="NAME" title="name" ddlFlg="1" type="VARCHAR2" />
+  <attr name="groupName" col="GROUP_NAME" title="groupName" ddlFlg="1" type="VARCHAR2" />
+  <attr name="pointName" col="POINT_NAME" title="pointName" ddlFlg="1" type="VARCHAR2" />
+</attrList>
+</mapping>

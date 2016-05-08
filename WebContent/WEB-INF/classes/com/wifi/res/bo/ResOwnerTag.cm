@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.res.bo.ResOwnerTag" type="ddl"  pks="keyId," baseTable="res_owner_tag">
+<sql></sql>
+<attrList>
+  <attr name="keyId" col="key_id" title="keyId" ddlFlg="0" type="NUMBER" />
+  <attr name="resId" col="RES_ID" title="resId" ddlFlg="0" type="NUMBER" />
+  <attr name="tagType" col="Tag_Type" title="tagType" ddlFlg="0" type="VARCHAR2" />
+  <attr name="tagId" col="Tag_Id" title="tagId" ddlFlg="0" type="VARCHAR2" />
+</attrList>
+</mapping>

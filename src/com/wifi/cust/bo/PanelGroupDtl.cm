@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.cust.bo.PanelGroupDtl" type="ddl"  pks="dtlId," baseTable="panel_group_dtl">
+<sql></sql>
+<attrList>
+  <attr name="dtlId" col="DTL_ID" title="dtlId" ddlFlg="0" type="NUMBER" />
+  <attr name="panelsId" col="PANELS_ID" title="panelsId" ddlFlg="0" type="NUMBER" />
+  <attr name="panelId" col="PANEL_ID" title="panelId" ddlFlg="0" type="NUMBER" />
+  <attr name="showNo" col="SHOW_NO" title="showNo" ddlFlg="0" type="NUMBER" />
+  
+  <attr name="screenId" col="SCREEN_ID" title="screenId" ddlFlg="1" type="NUMBER" />
+  <attr name="title" col="TITLE" title="title" ddlFlg="1" type="VARCHAR2" />
+  <attr name="image" col="IMAGE_URL" title="image" ddlFlg="1" type="VARCHAR2" />
+</attrList>
+</mapping>

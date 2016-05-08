@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.mz.sys.bo.SysOrgUserInfo" type="query"  pks="keyid" baseTable="sys_org_user">
+<sql>select a.*,(select wm_concat(c.role_name) from sys_user_role b,sys_role c where b.role_id=c.role_id and b.user_id=a.user_id) role_name from sys_org_user a</sql>
+<attrList>
+  <attr name="keyid" col="KEYID" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="orgId" col="ORG_ID" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="userId" col="USER_ID" title=" " ddlFlg="0" type="NUMBER" />
+  <attr name="userName" col="USER_NAME" title=" " ddlFlg="0" type="VARCHAR2" />
+  <attr name="roleName" col="ROLE_NAME" title=" " ddlFlg="1" type="VARCHAR2" />
+  <attr name="orgName" col="org_name1" title=" " ddlFlg="1" type="VARCHAR2" />
+</attrList>
+</mapping>

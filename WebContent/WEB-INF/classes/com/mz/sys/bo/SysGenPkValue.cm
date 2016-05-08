@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.mz.sys.bo.SysGenPkValue" type="query"  pks="seqNo" baseTable="sys_gen_pkvalue">
+<sql>select * from sys_gen_pkvalue  where 1=2</sql>
+<attrList>
+  <attr name="seqNo" col="seq_no" title=" " type="VARCHAR2" />
+  <attr name="seqType" col="seq_type" title=" " type="NUMBER" />
+  <attr name="seqName" col="seq_name" title=" " type="VARCHAR2" />
+  <attr name="tableName" col="table_name" title=" " type="VARCHAR2" />
+  <attr name="fieldName" col="field_name" title=" " type="VARCHAR2" />
+  <attr name="preValue" col="pre_value" title=" " type="VARCHAR2" />
+  <attr name="valueLen" col="value_len" title=" " type="NUMBER" />
+  <attr name="curValue" col="cur_value" title=" " type="NUMBER" />
+  <attr name="cacheValue" col="cache_value" title=" " type="NUMBER" />
+  <attr name="oracleSeq" col="oracle_seq" title=" " type="VARCHAR2" />
+</attrList>
+<pkList>
+   <pk attr="seqNo" type="A" seqname=""/>
+</pkList>
+</mapping>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.mz.sys.bo.SysParamValue" type="query"  pks="" baseTable="SYSTEM_PARAMETERS">
+<sql>select para from SYSTEM_PARAMETERS</sql>
+<attrList>
+  <attr name="para" col="PARA" title=" " type="VARCHAR2" />
+</attrList>
+<pkList></pkList>
+</mapping>

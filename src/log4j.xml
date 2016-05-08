@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Standard Log4j Logging file for Spring Application -->
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+    <!-- Make sure a copy of what we log goes to the console INFO-->
+    <appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+		<param name="Target" value="System.out"/>		
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p %C{5} (%F:%L) - %m%n"/><!--%d %-5p %C{5} (%F:%L) - %m%n-->
+		</layout>
+	</appender>
+
+    <!-- Make sure a copy of what we log goes to log file -->
+	<appender name="LOGFILE" class="org.apache.log4j.RollingFileAppender">		
+		<param name="File" value="mozi.log"/>
+		<param name="Append" value="true"/>
+		<param name="MaxFileSize" value="3000KB"/>
+		<layout class="org.apache.log4j.PatternLayout">
+		    <param name="ConversionPattern" value="%d %-5p  %m%n"/>
+		</layout>
+	</appender><!--%d{DATE} %-5p %-15c{1}: %m%n-->
+
+    <!-- Sample of how to switch off / on debugging for different parts of the application
+                in this case , the plugin-manager -->
+	<!--
+	<category name="org.mozi" additivity="false">
+		<priority value="error"/>
+        <appender-ref ref="CONSOLE"/>
+		<appender-ref ref="LOGFILE"/>
+	</category>
+    <category name="demo" additivity="false">
+		<priority value="error"/>
+        <appender-ref ref="CONSOLE"/>
+		<appender-ref ref="LOGFILE"/>
+	</category>
+    <category name="sys" additivity="false">
+		<priority value="error"/>
+        <appender-ref ref="CONSOLE"/>
+		<appender-ref ref="LOGFILE"/>
+	</category>
+-->
+	<root>
+		<priority value="debug"/>
+		<appender-ref ref="CONSOLE"/>
+		<appender-ref ref="LOGFILE"/>
+	</root>
+
+</log4j:configuration>
+
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.mz.sys.bo.DdCode" type="ddl"  pks="ddCode," baseTable="dd_code">
+<sql></sql>
+<attrList>
+  <attr name="ddCode" col="dd_code" title="ddCode" ddlFlg="0" type="VARCHAR2" />
+  <attr name="codeText" col="code_text" title="codeText" ddlFlg="0" type="VARCHAR2" />
+  <attr name="codeSort" col="code_sort" title="codeSort" ddlFlg="0" type="NUMBER" />
+</attrList>
+</mapping>

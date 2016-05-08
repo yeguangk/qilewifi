@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.mz.sys.bo.BasAutoMaxno" type="ddl"  pks="keyid" baseTable="bas_auto_maxno">
+<sql>select * from bas_auto_maxno  where 1=2</sql>
+<attrList>
+  <attr name="keyid" col="keyid" title=" " type="VARCHAR2" />  
+  <attr name="maxno" col="maxno" title=" " type="VARCHAR2" />
+  <attr name="codeClassCd" col="code_class_cd" title=" " type="VARCHAR2" />
+  <attr name="orgCd" col="org_cd" title=" " type="VARCHAR2" />
+  <attr name="yearMonth" col="YEAR_MONTH" title=" " type="VARCHAR2" />
+</attrList>
+<pkList>
+   <pk attr="" type="A" seqname=""/>
+   <pk attr="" type="B" seqname=""/>
+   <pk attr="" type="C" seqname=""/>
+</pkList>
+</mapping>

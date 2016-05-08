@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.res.bo.ResSubInfo" type="ddl"  pks="resId,subResId," baseTable="sub_res">
+<sql></sql>
+<attrList>
+  <attr name="resId" col="RES_ID" title="resId" ddlFlg="0" type="NUMBER" />
+  <attr name="subResId" col="sub_res_id" title="subResId" ddlFlg="0" type="NUMBER" />
+  <attr name="subResName" col="sub_res_name" title="subResName" ddlFlg="0" type="VARCHAR2" />
+  <attr name="subResDesc" col="sub_res_desc" title="subResDesc" ddlFlg="0" type="VARCHAR2" />
+  <attr name="seqId" col="seq_id" title="seqId" ddlFlg="0" type="NUMBER" />
+</attrList>
+</mapping>

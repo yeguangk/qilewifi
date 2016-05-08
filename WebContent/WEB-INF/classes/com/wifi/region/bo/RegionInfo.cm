@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.region.bo.RegionInfo" type="ddl"  pks="regionNo," baseTable="region_info">
+<sql></sql>
+<attrList>
+  <attr name="regionNo" col="REGION_NO" title="regionNo" ddlFlg="0" type="VARCHAR2" />
+  <attr name="regionName" col="REGION_NAME" title="regionName" ddlFlg="0" type="VARCHAR2" />
+  <attr name="regionDesc" col="REGION_DESC" title="regionDesc" ddlFlg="0" type="VARCHAR2" />
+  <attr name="parentNo" col="PARENT_NO" title="parentNo" ddlFlg="0" type="VARCHAR2" />
+  <attr name="createDate" col="CREATE_DATE" title="createDate" ddlFlg="0" type="DATE" />
+  <attr name="createMan" col="CREATE_MAN" title="createMan" ddlFlg="0" type="VARCHAR2" />
+</attrList>
+</mapping>

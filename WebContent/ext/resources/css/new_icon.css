@@ -1,0 +1,22 @@
+
+.view{ background-image: url(../icons/accept.png) !important; background-repeat: no-repeat; }
+.add{ background-image: url(../icons/add.png) !important; background-repeat: no-repeat; }
+.edit{ background-image: url(../icons/table_edit.png) !important; background-repeat: no-repeat; }
+.delete{ background-image: url(../icons/delete.gif) !important; background-repeat: no-repeat; }
+.save{ background-image: url(../icons/database_save.png) !important; background-repeat: no-repeat; }
+.return{ background-image: url(../icons/arrow_rotate_clockwise.png) !important; background-repeat: no-repeat; }
+.postSp{ background-image: url(../icons/arrow_up.png) !important; background-repeat: no-repeat; }
+.cancelSp{ background-image: url(../icons/arrow_turn_left.png) !important; background-repeat: no-repeat; }
+.viewSp{ background-image: url(../icons/table_go.png) !important; background-repeat: no-repeat; }
+.print{ background-image: url(../icons/printer.png) !important; background-repeat: no-repeat; }
+.upload{ background-image: url(../icons/upload.png) !important; background-repeat: no-repeat; }
+.download{ background-image: url(../icons/download.png) !important; background-repeat: no-repeat; }
+.refresh{ background-image: url(../icons/arrow_refresh.png) !important; background-repeat: no-repeat; }
+.cancel{ background-image: url(../icons/cancel.png) !important; background-repeat: no-repeat; }
+.copy{ background-image: url(../icons/page_copy.png) !important; background-repeat: no-repeat; }
+.user_add{ background-image: url(../icons/user_add.png) !important; background-repeat: no-repeat; }
+
+/*
+.cancelSp{ background-image: url(../icons/arrow_turn_left.png) !important; background-repeat: no-repeat; }
+.arrow_up{ background-image: url(../icons/arrow_up.png) !important; background-repeat: no-repeat; }
+*/

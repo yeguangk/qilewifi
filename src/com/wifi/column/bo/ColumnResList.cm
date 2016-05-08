@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.column.bo.ColumnResList" type="ddl"  pks="columnId,resId" baseTable="column_res_list">
+<sql></sql>
+<attrList>
+  <attr name="columnId" col="column_id" title="columnId" ddlFlg="0" type="NUMBER" />
+  <attr name="resId" col="RES_ID" title="resId" ddlFlg="0" type="NUMBER" />
+  
+  <attr name="resTitle" col="res_title" title="resTitle" ddlFlg="1" type="VARCHAR2" />
+</attrList>
+</mapping>

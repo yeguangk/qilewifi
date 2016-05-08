@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.res.bo.ResType" type="ddl"  pks="typeId," baseTable="res_type">
+<sql></sql>
+<attrList>
+  <attr name="typeId" col="TYPE_ID" title="typeId" ddlFlg="0" type="NUMBER" />
+  <attr name="typeName" col="TYPE_NAME" title="typeName" ddlFlg="0" type="VARCHAR2" />
+  <attr name="typeDesc" col="TYPE_DESC" title="typeDesc" ddlFlg="0" type="VARCHAR2" />
+  <attr name="parentId" col="PARENT_ID" title="parentId" ddlFlg="0" type="NUMBER" />
+  <attr name="resType" col="RES_TYPE" title="resType" ddlFlg="0" type="NUMBER" />
+  <attr name="createDate" col="CREATE_DATE" title="createDate" ddlFlg="0" type="DATE" />
+  <attr name="createMan" col="CREATE_MAN" title="createMan" ddlFlg="0" type="VARCHAR2" />
+</attrList>
+</mapping>

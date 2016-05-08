@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.wifi.res.bo.ResSpInfo" type="ddl"  pks="recId," baseTable="res_sp_info">
+<sql></sql>
+<attrList>
+  <attr name="recId" col="rec_id" title="recId" ddlFlg="0" type="NUMBER" />
+  <attr name="resId" col="res_id" title="resId" ddlFlg="0" type="NUMBER" />
+  <attr name="spInfo" col="sp_info" title="spInfo" ddlFlg="0" type="VARCHAR2" />
+  <attr name="spDate" col="sp_date" title="spDate" ddlFlg="0" type="DATE" />
+  <attr name="spMan" col="sp_man" title="spMan" ddlFlg="0" type="VARCHAR2" />
+</attrList>
+</mapping>

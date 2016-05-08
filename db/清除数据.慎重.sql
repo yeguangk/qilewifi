@@ -1,0 +1,21 @@
+delete from client_update_info;
+delete from column_info;
+delete from column_res_list;
+delete from cust_equipment;
+delete from cust_group;
+delete from cust_point;
+delete from panel_box_def;
+delete from panel_box_item;
+delete from panel_def;
+delete from panel_group;
+delete from panel_group_dtl;
+delete from region_info;
+delete from res_attr;
+delete from res_file;
+delete from res_info;
+delete from res_owner_tag;
+delete from sub_res;
+
+delete from res_type;
+delete from update_range;
+delete from wifi_pk;

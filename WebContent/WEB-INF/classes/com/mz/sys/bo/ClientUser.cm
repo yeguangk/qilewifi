@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping class="com.mz.sys.bo.ClientUser" type="ddl"  pks="userId" baseTable="user_info">
+<sql>select * from user_info  where 1=1</sql>
+<attrList>
+  <attr name="userId" col="USER_ID" title="用户标识" type="NUMBER" />
+  <attr name="loginName" col="LOGIN_NAME" title="登录帐号" type="VARCHAR2" />
+  <attr name="userName" col="USER_NAME" title="用户名" type="VARCHAR2" />
+  <attr name="password" col="PASSWORD" title="登录密码" type="VARCHAR2" />
+  <attr name="lastUuid" col="LAST_UUID" title="上次uuid" type="VARCHAR2" />
+  <attr name="lastLoginTime" col="LAST_LOGIN_TIME" title="上次登入时间" ddlFlg="0" type="DATETIME" />
+</attrList>
+</mapping>
