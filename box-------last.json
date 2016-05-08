@@ -1,0 +1,214 @@
+﻿{
+"panel1":{"title":"首页","image":"/url/img1.png","show":"1","boxList":[
+		{"id":"box1","type":"0","title":"滚动","more":"0","moreUrl":"","dispPreLine":3,"itemList":[
+			{"id":"1","name":"广告描述1","name2":"","actionType":4,"image":"/res/unicom/ad/1.png","href":"/res/unicom/ad/1_1.jpg"},
+			{"id":"2","name":"广告描述1","name2":"","actionType":4,"image":"/res/unicom/ad/2.png","href":"/res/unicom/ad/2_1.jpg"},
+			{"id":"3","name":"广告描述1","name2":"","actionType":4,"image":"/res/unicom/ad/3.png","href":"/res/unicom/ad/3_1.jpg"},
+			{"id":"4","name":"广告描述1","name2":"","actionType":6,"image":"/res/unicom/ad/4.png","href":"http://m.10010.com/iphone6"},
+			{"id":"5","name":"广告描述1","name2":"","actionType":6,"image":"/res/unicom/ad/5.png","href":"http://m.10010.com/4g318?version=client"},
+			{"id":"6","name":"广告描述1","name2":"","actionType":6,"image":"/res/unicom/ad/6.png","href":"http://m.10010.com/iphone6"}
+		]},
+		{"id":"box2","type":"1","title":"热销手机","more":"1","moreUrl":"unicom_sales_phone.html","dispPreLine":3,"itemList":[
+	    {"id":"1"  ,"name":"苹果iPhone6" , 			       "name2":"￥5499","actionType":5,	"image": "/res/unicom/phone/1.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone","param2":2},
+			{"id":"2"  ,"name":"苹果iPhone6 Plus" , 		   "name2":"￥6299","actionType":5,	"image": "/res/unicom/phone/2.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone","param2":2},
+    	{"id":"3"  ,"name":"小米红米1S 3G套餐合约机" , "name2":"￥799" ,"actionType":5,	"image": "/res/unicom/phone/3.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone","param2":4},
+			{"id":"4"  ,"name":"小米4 3G套餐合约机" , 		 "name2":"￥2199","actionType":5,	"image": "/res/unicom/phone/4.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone","param2":7},
+	    {"id":"5"  ,"name":"小米红米Note联通4G增强版" ,"name2":"￥1099","actionType":5,	"image": "/res/unicom/phone/5.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone","param2":6},
+  	  {"id":"6"  ,"name":"iPhone5S 联通4G版" ,			 "name2":"￥4299","actionType":5, "image": "/res/unicom/phone/6.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone","param2":11}
+		]},
+		{"id":"box3","type":"1","title":"增值业务","more":"1","moreUrl":"unicom_sales_pkg.html","dispPreLine":3,"itemList":[
+    	{"id":"4" ,"name":"微信四禧卡 46元享66元套餐 月享1.4GB流量 赠送480元话费 尊享7大特权" ,			                  "name2":"￥46" ,"actionType":5,	"image": "/res/unicom/pkg/4.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/pkg","param2":0},
+    	{"id":"5" ,"name":"32元享46元套餐 1年期 默认开炫铃升级版 存14得252元话费 赠600M省内流量 最高含260分钟通话" , 	"name2":"￥32" ,"actionType":5,	"image": "/res/unicom/pkg/5.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/pkg","param2":0},
+    	{"id":"6" ,"name":"46元享66元套餐 1年期 默认开炫铃升级版 存30得360元话费 赠1.8G省内流量 最高含380分钟通话" ,	"name2":"￥46" ,"actionType":5,	"image": "/res/unicom/pkg/6.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/pkg","param2":0},
+    	{"id":"7" ,"name":"微信四禧卡96元套餐 66元享96元套餐 月享1.4GB流量 赠送720元话费 微信5大特权" ,			          "name2":"￥66" ,"actionType":5,	"image": "/res/unicom/pkg/7.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/pkg","param2":0},
+    	{"id":"8" ,"name":"51元享126元套餐 2年期 默认开炫铃升级版 存400得1800元话费 赠1.8G省内流量 最高含680分钟通话","name2":"￥51" ,"actionType":5,	"image": "/res/unicom/pkg/8.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/pkg","param2":0},
+    	{"id":"9" ,"name":"68元享96元套餐 1年期 默认开炫铃升级版 存60得504元话费 赠1.8G省内流量 最高含550分钟通话" ,	"name2":"￥68" ,"actionType":5,	"image": "/res/unicom/pkg/9.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/pkg","param2":0}
+		]},
+		{"id":"box4","type":"2","title":"精彩视频","more":"2","moreUrl":"javascript:switchDisplay(2);","dispPreLine":3,"itemList":[
+			{"id":"1","name":"超级战舰" ,     "name2":"","actionType":1,"image": "/res/videos/116/chaojizhanjian.jpg",       "href": "/res/videos/116/2/index_2.m3u8","param1":"","param2":0},
+    	{"id":"2","name":"禁运品" ,       "name2":"","actionType":1,"image": "/res/videos/115/jinyunpin.jpg",            "href": "/res/videos/115/2/index_2.m3u8","param1":"","param2":0},
+    	{"id":"3","name":"马达加斯加" ,   "name2":"","actionType":1,"image": "/res/videos/114/madajiasijia.jpg",         "href": "/res/videos/114/2/index_2.m3u8","param1":"","param2":0},
+    	{"id":"4","name":"今晚带我回家",  "name2":"","actionType":1,"image": "/res/videos/112/jinwandaiwohuijia.jpg",    "href": "/res/videos/112/2/index_2.m3u8","param1":"","param2":0},
+    	{"id":"5","name":"藏身之所" ,     "name2":"","actionType":1,"image": "/res/videos/103/cangshenzhisuo.jpg",       "href": "/res/videos/103/2/index_2.m3u8","param1":"","param2":0},
+    	{"id":"6","name":"白雪公主与猎人","name2":"","actionType":1,"image": "/res/videos/102/baixuegongzhuyulieren.jpg","href": "/res/videos/102/2/index_2.m3u8","param1":"","param2":0}
+		]},
+		{"id":"box5","type":"3","title":"热门下载","more":"2","moreUrl":"javascript:switchDisplay(3);","dispPreLine":3,"itemList":[
+    	{"id":"1", "name": "今日头条",  "name2":"","actionType":3, "param1": "4", "param2": "7.8MB", "image": "/res/apk/new/today.png", "href": "/res/apk/new/today.apk"},
+    	{"id":"2", "name": "QQ",        "name2":"","actionType":3, "param1": "4", "param2": "22.3MB", "image": "/res/apk/new/com.tencent.mobileqq.png", "href": "/res/apk/new/com.tencent.mobileqq.apk"},
+    	{"id":"3", "name": "微信",      "name2":"","actionType":3, "param1": "4", "param2": "24MB", "image": "/res/apk/new/com.tencent.mm.png", "href": "/res/apk/new/com.tencent.mm.apk"},
+    	{"id":"4", "name": "支付宝钱包","name2":"","actionType":3, "param1": "4", "param2": "24MB", "image": "/res/apk/new/com.eg.android.AlipayGphone.png", "href": "/res/apk/new/com.eg.android.AlipayGphone.apk"}
+		]}
+	]},
+"panel2":{"title":"业务","image":"/url/img2.png","show":"1","boxList":[
+		{"id":"box1","type":"0","title":"滚动","more":"0","moreUrl":"","dispPreLine":3,"itemList":[
+			{"id":"1","name":"广告描述1","name2":"","actionType":4,"image":"/res/unicom/ad/1.png","href":"/res/unicom/ad/1_1.jpg"},
+			{"id":"2","name":"广告描述1","name2":"","actionType":4,"image":"/res/unicom/ad/2.png","href":"/res/unicom/ad/2_1.jpg"},
+			{"id":"3","name":"广告描述1","name2":"","actionType":4,"image":"/res/unicom/ad/3.png","href":"/res/unicom/ad/3_1.jpg"},
+			{"id":"4","name":"广告描述1","name2":"","actionType":6,"image":"/res/unicom/ad/4.png","href":"http://m.10010.com/iphone6"},
+			{"id":"5","name":"广告描述1","name2":"","actionType":6,"image":"/res/unicom/ad/5.png","href":"http://m.10010.com/4g318?version=client"},
+			{"id":"6","name":"广告描述1","name2":"","actionType":6,"image":"/res/unicom/ad/6.png","href":"http://m.10010.com/iphone6"}
+		]},
+		{"id":"box2","type":"1","title":"企业宣传","more":"0","moreUrl":"","dispPreLine":2,"itemList":[
+    	{"id":"1","name":"","name2":"","actionType":2,"image": "/res/unicom/other/bizvod/1/1.png","href": "/res/unicom/other/bizvod/1/1.mp4","param1":"","param2":0},
+    	{"id":"2","name":"","name2":"","actionType":2,"image": "/res/unicom/other/bizvod/2/2.png","href": "/res/unicom/other/bizvod/2/2.mp4","param1":"","param2":0}
+		]},
+		{"id":"box3","type":"1","title":"业务受理","more":"0","moreUrl":"","dispPreLine":4,"itemList":[
+    	{"id":"6" ,"name":"","name2":"" ,"actionType":6,	"image": "/res/unicom/other/bizoper/1.png", "href": "http://wap.10010.com/t/siteMap.htm?menuId=query","param1":"","param2":0},
+    	{"id":"7" ,"name":"","name2":"" ,"actionType":6,	"image": "/res/unicom/other/bizoper/2.png", "href": "http://wap.10010.com/t/siteMap.htm?menuId=pay","param1":"","param2":0},
+    	{"id":"8" ,"name":"","name2":"" ,"actionType":6,	"image": "/res/unicom/other/bizoper/3.png", "href": "http://wap.10010.com/t/siteMap.htm?menuId=transact","param1":"","param2":0},
+    	{"id":"9" ,"name":"","name2":"" ,"actionType":6,	"image": "/res/unicom/other/bizoper/4.png", "href": "http://m.10010.com/?version=t","param1":"","param2":0}
+		]},
+		{"id":"box4","type":"1","title":"推荐关注","more":"0","moreUrl":"","dispPreLine":3,"itemList":[
+    	{"id":"7" ,"name":"","name2":"" ,"actionType":6,	"image": "/res/unicom/other/other/1.png", "href": "http://info.10010.com/database/clientdownload/index.jsp","param1":"","param2":0},
+    	{"id":"8" ,"name":"","name2":"" ,"actionType":4,	"image": "/res/unicom/other/other/2.png", "href": "/res/unicom/other/other/weixin.jpg","param1":"","param2":0},
+    	{"id":"9" ,"name":"","name2":"" ,"actionType":6,	"image": "/res/unicom/other/other/3.png", "href": "luck/index.html","param1":"","param2":0}
+		]}
+	]},
+"panel3":{"title":"视频","image":"/url/img2.png","show":"1","boxList":[
+		{"id":"box1","type":"0","title":"滚动","more":"0","moreUrl":"","dispPreLine":3,"itemList":[
+			{"id":"1","name":"广告描述1","name2":"","actionType":1,"image": "/res/videos/ad/1.jpg", "href": "/res/videos/116/2/index_2.m3u8"},
+			{"id":"2","name":"广告描述1","name2":"","actionType":1,"image": "/res/videos/ad/2.jpg", "href": "/res/videos/114/2/index_2.m3u8"},
+			{"id":"3","name":"广告描述1","name2":"","actionType":1,"image": "/res/videos/ad/3.jpg", "href": "/res/videos/122/2/index_2.m3u8"},
+			{"id":"4","name":"广告描述1","name2":"","actionType":1,"image": "/res/videos/ad/4.jpg", "href": "/res/videos/105/2/index_2.m3u8"},
+			{"id":"5","name":"广告描述1","name2":"","actionType":1,"image": "/res/videos/ad/5.jpg", "href": "/res/videos/111/2/index_2.m3u8"}
+		]},
+		{"id":"box4","type":"2","title":"热播电影","more":"0","moreUrl":"","dispPreLine":3,"itemList":[
+  	    {"id":"1","name2":"","actionType":1,"name":"超级战舰" , "image": "/res/videos/116/chaojizhanjian.jpg", "href": "/res/videos/116/2/index_2.m3u8"},
+  	    {"id":"2","name2":"","actionType":1,"name":"禁运品" , "image": "/res/videos/115/jinyunpin.jpg", "href": "/res/videos/115/2/index_2.m3u8"},
+  	    {"id":"3","name2":"","actionType":1,"name":"马达加斯加" , "image": "/res/videos/114/madajiasijia.jpg", "href": "/res/videos/114/2/index_2.m3u8"},
+  	    {"id":"4","name2":"","actionType":1,"name":"今晚带我回家" , "image": "/res/videos/112/jinwandaiwohuijia.jpg", "href": "/res/videos/112/2/index_2.m3u8"},
+  	    {"id":"5","name2":"","actionType":1,"name":"藏身之所" , "image": "/res/videos/103/cangshenzhisuo.jpg", "href": "/res/videos/103/2/index_2.m3u8"},
+  	    {"id":"6","name2":"","actionType":1,"name":"白雪公主与猎人" , "image": "/res/videos/102/baixuegongzhuyulieren.jpg", "href": "/res/videos/102/2/index_2.m3u8"}
+    ]},
+		{"id":"box4","type":"2","title":"电视剧","more":"0","moreUrl":"","dispPreLine":3,"itemList":[
+  	    {"id":"1","name2":"","actionType":1,"name":"Three Days" , "image": "/res/videos/117/three-days.jpg", "href": "/res/videos/117/2/index_2.m3u8"},
+  	    {"id":"2","name2":"","actionType":1,"name":"继承者们" , "image": "/res/videos/122/jichengzhemen.jpg", "href": "/res/videos/122/2/index_2.m3u8"},
+  	    {"id":"3","name2":"","actionType":1,"name":"老兵" , "image": "/res/videos/121/laobing.jpg", "href": "/res/videos/121/2/index_2.m3u8"},
+  	    {"id":"4","name2":"","actionType":1,"name":"法证先锋" , "image": "/res/videos/119/fazheng.jpg", "href": "/res/videos/119/2/index_2.m3u8"},
+  	    {"id":"5","name2":"","actionType":1,"name":"屋塔房王世子" , "image": "/res/videos/120/wutafangwang.jpg", "href": "/res/videos/120/2/index_2.m3u8"},
+  	    {"id":"6","name2":"","actionType":1,"name":"宫锁连城" , "image": "/res/videos/118/gong_2.jpg", "href": "/res/videos/118/2/index_2.m3u8"}
+    ]},
+		{"id":"box4","type":"2","title":"综艺","more":"0","moreUrl":"","dispPreLine":3,"itemList":[
+  	    {"id":"1","name2":"","actionType":1,"name":"超级访问-佟大为" , "image": "/res/videos/101/tongdawei.jpg", "href": "/res/videos/101/2/index_2.m3u8"},
+  	    {"id":"2","name2":"","actionType":1,"name":"超级访问-田亮" , "image": "/res/videos/100/chaojifangwen.jpg", "href": "/res/videos/100/2/index_2.m3u8"},
+  	    {"id":"3","name2":"","actionType":1,"name":"超级访问-特种兵" , "image": "/res/videos/99/chaojifang.jpg", "href": "/res/videos/99/2/index_2.m3u8"},
+  	    {"id":"4","name2":"","actionType":1,"name":"美丽俏佳人 这些小怪兽你敢养吗" , "image": "/res/videos/98/meiliqiaojiaren.jpg", "href": "/res/videos/98/2/index_2.m3u8"},
+  	    {"id":"5","name2":"","actionType":1,"name":"美丽俏佳人 他们为什么那么瘦" , "image": "/res/videos/97/meiliqiaojia.jpg", "href": "/res/videos/97/2/index_2.m3u8"},
+  	    {"id":"6","name2":"","actionType":1,"name":"超级访问-爱情公寓" , "image": "/res/videos/96/aiqinggongyu.jpg", "href": "/res/videos/96/2/index_2.m3u8"}
+    ]},
+		{"id":"box4","type":"2","title":"动漫点播","more":"0","moreUrl":"","dispPreLine":3,"itemList":[
+  	    {"id":"1","name2":"","actionType":1,"name":"熊出没之夺宝熊兵" , "image": "/res/videos/113/xiongchumo.jpg", "href": "/res/videos/113/2/index_2.m3u8"},
+  	    {"id":"2","name2":"","actionType":1,"name":"喜羊羊与灰太狼" , "image": "/res/videos/111/xiyangyang.jpg", "href": "/res/videos/111/2/index_2.m3u8"},
+  	    {"id":"3","name2":"","actionType":1,"name":"猫和老鼠" , "image": "/res/videos/110/maohelaoshu.jpg", "href": "/res/videos/110/2/index_2.m3u8"},
+  	    {"id":"4","name2":"","actionType":1,"name":"我们是朋友" , "image": "/res/videos/106/womenshipengyou.jpg", "href": "/res/videos/106/2/index_2.m3u8"},
+  	    {"id":"5","name2":"","actionType":1,"name":"倒霉熊第三部" , "image": "/res/videos/105/daomeixiong.jpg", "href": "/res/videos/105/2/index_2.m3u8"},
+  	    {"id":"6","name2":"","actionType":1,"name":"妖精的尾巴" , "image": "/res/videos/104/yaojingdeweiba.jpg", "href": "/res/videos/104/2/index_2.m3u8"}
+    ]}
+	]},
+"panel4":{"title":"下载","image":"/url/img2.png","show":"1","boxList":[
+		{"id":"box1","type":"0","title":"滚动","more":"0","moreUrl":"","dispPreLine":3,"itemList":[
+			{"id":"1","name":"广告描述1","name2":"","actionType":3,"image": "/res/apk/ad/1.png", "href": ""},
+			{"id":"2","name":"广告描述1","name2":"","actionType":3,"image": "/res/apk/ad/2.png", "href": ""},
+			{"id":"3","name":"广告描述1","name2":"","actionType":3,"image": "/res/apk/ad/3.png", "href": ""},
+			{"id":"4","name":"广告描述1","name2":"","actionType":3,"image": "/res/apk/ad/4.png", "href": ""}
+    ]},   
+		{"id":"box4","type":"3","title":"新机推荐","more":"0","moreUrl":"","dispPreLine":2,"itemList":[
+    	{"id":"1","name2":"","actionType":3,"name": "今日头条", "param1": "4", "param2": "7.8MB", "image": "/res/apk/new/today.png", "href": "/res/apk/new/today.apk"},
+    	{"id":"2","name2":"","actionType":3,"name": "360手机卫士", "param1": "4", "param2": "14.4MB", "image": "/res/apk/new/com.qihoo360.mobilesafe.png", "href": "/res/apk/new/com.qihoo360.mobilesafe.apk"},
+    	{"id":"3","name2":"","actionType":3,"name": "QQ", "param1": "4", "param2": "22.3MB", "image": "/res/apk/new/com.tencent.mobileqq.png", "href": "/res/apk/new/com.tencent.mobileqq.apk"},
+    	{"id":"4","name2":"","actionType":3,"name": "手机淘宝", "param1": "4", "param2": "36MB", "image": "/res/apk/new/com.taobao.taobao.png", "href": "/res/apk/new/com.taobao.taobao.apk"},
+    	{"id":"5","name2":"","actionType":3,"name": "微信", "param1": "4", "param2": "24MB", "image": "/res/apk/new/com.tencent.mm.png", "href": "/res/apk/new/com.tencent.mm.apk"},
+    	{"id":"6","name2":"","actionType":3,"name": "支付宝钱包", "param1": "4", "param2": "24MB", "image": "/res/apk/new/com.eg.android.AlipayGphone.png", "href": "/res/apk/new/com.eg.android.AlipayGphone.apk"}
+	  ]},   
+		{"id":"box4","type":"3","title":"炫酷游戏","more":"0","moreUrl":"","dispPreLine":2,"itemList":[
+    	{"id":"1","name2":"","actionType":3,"name": "超级MT", "param1": "4", "param2": "113MB", "image": "/res/apk/game/com.koramgame.xxsr.qihoo.png", "href": "/res/apk/game/com.koramgame.xxsr.qihoo.apk"},
+    	{"id":"2","name2":"","actionType":3,"name": "村长斗地主", "param1": "4", "param2": "18MB", "image": "/res/apk/game/com.tuyoo.doudizhu.mayor.png", "href": "/res/apk/game/com.tuyoo.doudizhu.mayor.apk"},
+    	{"id":"3","name2":"","actionType":3,"name": "刀塔传奇", "param1": "4", "param2": "140MB", "image": "/res/apk/game/sh.lilith.dgame.s360.png", "href": "/res/apk/game/sh.lilith.dgame.s360.apk"},
+    	{"id":"4","name2":"","actionType":3,"name": "海盗奇兵", "param1": "4", "param2": "80MB", "image": "/res/apk/game/com.supercell.boombeach.qihoo.png", "href": "/res/apk/game/com.supercell.boombeach.qihoo.apk"},
+    	{"id":"5","name2":"","actionType":3,"name": "僵尸突围", "param1": "4", "param2": "23MB", "image": "/res/apk/game/com.chillingo.deadahead.ajagplay.png", "href": "/res/apk/game/com.chillingo.deadahead.ajagplay.apk"},
+    	{"id":"6","name2":"","actionType":3,"name": "神魔大陆", "param1": "4", "param2": "271MB", "image": "/res/apk/game/com.perfectworld.shenmo.png", "href": "/res/apk/game/com.perfectworld.shenmo.apk"}
+	  ]},   
+		{"id":"box4","type":"3","title":"其他应用","more":"0","moreUrl":"","dispPreLine":2,"itemList":[
+    	{"id":"1","name2":"","actionType":3,"name": "360影视大全", "param1": "4", "param2": "19.2MB", "image": "/res/apk/other/com.qihoo.video.png", "href": "/res/apk/other/com.qihoo.video.apk"},
+    	{"id":"2","name2":"","actionType":3,"name": "暴风影音", "param1": "4", "param2": "11.1MB", "image": "/res/apk/other/com.storm.smart.png", "href": "/res/apk/other/com.storm.smart.apk"},
+    	{"id":"3","name2":"","actionType":3,"name": "酷狗音乐", "param1": "4", "param2": "9.3MB", "image": "/res/apk/other/com.kugou.android.png", "href": "/res/apk/other/com.kugou.android.apk"},
+    	{"id":"4","name2":"","actionType":3,"name": "优酷", "param1": "4", "param2": "22.4MB", "image": "/res/apk/other/com.youku.phone.png", "href": "/res/apk/other/com.youku.phone.apk"}
+	  ]}   
+	]},
+	
+"panel5":{"title":"手机","image":"/url/img2.png","show":"0","boxList":[
+		{"id":"box2","type":"1","title":"iPhone","more":"0","moreUrl":"","dispPreLine":3,"itemList":[
+		
+	    {"id":"1"  ,"actionType":5,"param2":"2","name":"苹果iPhone6" , 			"name2":"￥5499" ,						"image": "/res/unicom/phone/1.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"},
+		
+			{"id":"2"  ,"actionType":5,"param2":"2","name":"苹果iPhone6 Plus" , 		"name2":"￥6299" ,						"image": "/res/unicom/phone/2.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"},
+		
+		{"id":"6"  ,"actionType":5,"param2":"11","name":"iPhone5S 联通4G版" ,			"name2":"￥4299" , 					"image": "/res/unicom/phone/6.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"},
+			
+			{"id":"10" ,"actionType":5,"param2":"1","name":"iphone4S 3G套餐合约机" , 	"name2":"￥2199" ,					"image": "/res/unicom/phone/10.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"},
+			
+			{"id":"12" ,"actionType":5,"param2":"9","name":"iPhone5S 联通4G版" ,		"name2":"￥4699" , 					"image": "/res/unicom/phone/12.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"}
+			
+	    ]},
+		{"id":"box2","type":"1","title":"小米","more":"0","moreUrl":"","dispPreLine":3,"itemList":[
+  		{"id":"3"  ,"actionType":5,"param2":"4","name":"小米红米1S 3G套餐合约机" , "name2":"￥799" ,						"image": "/res/unicom/phone/3.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"},
+			{"id":"4"  ,"actionType":5,"param2":"7","name":"小米4 3G套餐合约机" , 		"name2":"￥2199" ,					"image": "/res/unicom/phone/4.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"},
+    	{"id":"5"  ,"actionType":5,"param2":"6","name":"小米红米Note联通4G增强版" , "name2":"￥1099" ,						"image": "/res/unicom/phone/5.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"},
+			{"id":"13" ,"actionType":5,"param2":"1","name":"小米红米Note增强版4G版" ,	"name2":"￥1199" , 					"image": "/res/unicom/phone/13.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"}
+    ]},
+		{"id":"box2","type":"1","title":"华为","more":"0","moreUrl":"","dispPreLine":3,"itemList":[
+			{"id":"7"  ,"actionType":5,"param2":"12","name":"华为Ascend Mate7 4G版" , 	"name2":"￥3199" ,					"image": "/res/unicom/phone/7.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"},
+			{"id":"8"  ,"actionType":5,"param2":"1","name":"华为荣耀6（标准版）4G版" , "name2":"￥1999" ,						"image": "/res/unicom/phone/8.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"},
+			{"id":"11" ,"actionType":5,"param2":"2","name":"华为Ascend P7 4G版" , 		"name2":"￥2399" ,					"image": "/res/unicom/phone/11.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"},
+			{"id":"14" ,"actionType":5,"param2":"1","name":"华为荣耀3C 4G版" ,			"name2":"￥799" , 					"image": "/res/unicom/phone/14.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"},
+			{"id":"18" ,"actionType":5,"param2":"2","name":"华为荣耀6（标准版）4G版 4G全国套餐合约机" , "name2":"￥2199" ,	"image": "/res/unicom/phone/18.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"}
+		]},
+		{"id":"box2","type":"1","title":"三星","more":"0","moreUrl":"","dispPreLine":3,"itemList":[
+			{"id":"9"  ,"actionType":5,"param2":"1","name":"三星GALAXY Note4 SM-N9106W 4G版" , "name2":"￥5399" ,				"image": "/res/unicom/phone/9.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"},
+			{"id":"22" ,"actionType":5,"param2":"10","name":"三星GALAXY Note4 SM-N9106W 4G版 默认开通炫铃升级版" , "name2":"￥5399" ,	"image": "/res/unicom/phone/22.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"},
+			{"id":"23" ,"actionType":5,"param2":"1","name":"三星S5（SM-G9006V）4G版 默认开通炫铃升级版" , "name2":"￥3699" ,			"image": "/res/unicom/phone/23.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"},
+			{"id":"24" ,"actionType":5,"param2":"1","name":"三星GALAXY Note3 SM-N9002 3G套餐合约机" , "name2":"￥3699" ,		"image": "/res/unicom/phone/24.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"}
+		]},
+		{"id":"box2","type":"1","title":"魅族","more":"0","moreUrl":"","dispPreLine":3,"itemList":[
+			{"id":"15" ,"actionType":5,"param2":"1","name":"魅族 MX4(16G) 4G版" , 		"name2":"￥1999" ,					"image": "/res/unicom/phone/15.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"},
+			{"id":"16" ,"actionType":5,"param2":"1","name":"魅族 MX4(16G) 4G版 默认开通炫铃升级版" , "name2":"￥1999" ,		"image": "/res/unicom/phone/16.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"}
+		]},
+		{"id":"box2","type":"1","title":"HTC","more":"0","moreUrl":"","dispPreLine":3,"itemList":[
+			{"id":"17" ,"actionType":5,"param2":"1","name":"HTC One时尚版(M8Sw)4G版" , "name2":"￥2449" ,						"image": "/res/unicom/phone/17.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"},
+			{"id":"21" ,"actionType":5,"param2":"1","name":"HTC One时尚版(M8Sw)4G版 4G全国套餐合约机" , "name2":"￥2999" ,	"image": "/res/unicom/phone/21.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"}
+		]},
+		{"id":"box2","type":"1","title":"中兴","more":"0","moreUrl":"","dispPreLine":3,"itemList":[
+			{"id":"19" ,"actionType":5,"param2":"1","name":"中兴（ZTE）Q801U 4G版" , "name2":"￥499" ,						"image": "/res/unicom/phone/19.jpg", "href": "unicom_phone_detail.html","param1":"/res/unicom/phone"}
+		]}
+	]},
+"panel6":{"title":"增值业务","image":"/url/img2.png","show":"0","boxList":[
+		{"id":"box2","type":"1","title":"中兴","more":"0","moreUrl":"","dispPreLine":3,"itemList":[
+			{"id":"1","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:苹果iPhone6",							"image":"/res/unicom/phone/1-fee-1.jpg","href":""},
+			{"id":"1","name2":"","actionType":5,"param2":"","param1":"1","name":"套餐:苹果iPhone6",							"image":"/res/unicom/phone/1-fee-2.jpg","href":""},
+			{"id":"2","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:苹果iPhone6 Plus",						"image":"/res/unicom/phone/2-fee-1.jpg","href":""},
+			{"id":"2","name2":"","actionType":5,"param2":"","param1":"1","name":"套餐:苹果iPhone6",							"image":"/res/unicom/phone/2-fee-2.jpg","href":""},
+			{"id":"3","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:小米红米1S 3G套餐合约机",				"image":"/res/unicom/phone/3-fee-1.jpg","href":""},
+			{"id":"4","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:小米4 3G套餐合约机",					"image":"/res/unicom/phone/4-fee-1.jpg","href":""},
+			{"id":"5","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:小米红米Note 联通4G增强版",				"image":"/res/unicom/phone/5-fee-1.jpg","href":""},
+			{"id":"6","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:iPhone5S 联通4G版",						"image":"/res/unicom/phone/6-fee-1.jpg","href":""},
+			{"id":"7","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:华为AscendMate7 4G版",					"image":"/res/unicom/phone/7-fee-1.jpg","href":""},
+			{"id":"8","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:华为荣耀6（标准版）4G版",				"image":"/res/unicom/phone/8-fee-1.jpg","href":""},
+			{"id":"9","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:三星GALAXY Note4 SM-N9106W 4G版",			"image":"/res/unicom/phone/9-fee-1.jpg","href":""},
+			{"id":"10","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:iphone4S 3G套餐合约机",				"image":"/res/unicom/phone/10-fee-1.jpg","href":""},
+			{"id":"11","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:华为AscendP7 4G版",					"image":"/res/unicom/phone/11-fee-1.jpg","href":""},
+			{"id":"12","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:iPhone5S联通4G版",					"image":"/res/unicom/phone/12-fee-1.jpg","href":""},
+			{"id":"13","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:小米红米Note增强版4G版",				"image":"/res/unicom/phone/13-fee-1.jpg","href":""},
+			{"id":"14","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:华为荣耀3C4G版",						"image":"/res/unicom/phone/14-fee-1.jpg","href":""},
+			{"id":"15","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:魅族MX4(16G)4G版",					"image":"/res/unicom/phone/15-fee-1.jpg","href":""},
+			{"id":"16","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:魅族MX4(16G)4G版默认开通炫铃升级版",	"image":"/res/unicom/phone/16-fee-1.jpg","href":""},
+			{"id":"17","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:HTCOne时尚版(M8Sw)4G版",				"image":"/res/unicom/phone/17-fee-1.jpg","href":""},
+			{"id":"18","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:华为荣耀6（标准版）4G版4G全国套餐合约机",				"image":"/res/unicom/phone/18-fee-1.jpg","href":""},
+			{"id":"19","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:中兴（ZTE）Q801U4G版",								"image":"/res/unicom/phone/19-fee-1.jpg","href":""},
+			{"id":"20","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:诺基亚Lumia6303G套餐合约机",							"image":"/res/unicom/phone/20-fee-1.jpg","href":""},
+			{"id":"21","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:HTC One时尚版(M8Sw)4G版4G全国套餐合约机",				"image":"/res/unicom/phone/21-fee-1.jpg","href":""},
+			{"id":"21","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:三星GALAXYNote4SM-N9106W4G版默认开通炫铃升级版",		"image":"/res/unicom/phone/22-fee-1.jpg","href":""},
+			{"id":"22","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:三星S5（SM-G9006V）4G版默认开通炫铃升级版",			"image":"/res/unicom/phone/23-fee-1.jpg","href":""},
+			{"id":"23","name2":"","actionType":5,"param2":"","param1":"0","name":"套餐:三星GALAXYNote3SM-N90023G套餐合约机",					"image":"/res/unicom/phone/24-fee-1.jpg","href":""}
+		]}
+	]}
+}
