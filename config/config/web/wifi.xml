@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mozi>
+    <collector id="columnWeb" class="com.wifi.column.web.ColumnInfoWeb">
+	     <method name="getSubNode"/>
+	     <method name="getSubInfo"/>
+	     <method name="save"/>
+	     <method name="del"/>
+	     <method name="sclsRes"/>
+	     <method name="clsRes"/>
+	     <method name="delClsRes"/>
+    </collector>
+    <collector id="regionWeb" class="com.wifi.region.web.RegionWeb">
+	     <method name="getSubNode"/>
+	      <method name="boxNode"/>
+	     <method name="getSubInfo"/>
+	     <method name="save"/>
+	     <method name="del"/>
+    </collector>
+    <collector id="fileWeb" class="com.wifi.res.web.ResFileWeb">
+	     <method name="upload"/>
+    </collector>
+    <collector id="logWeb" class="com.wifi.res.web.PublishLogWeb">
+	     <method name="qryLogPg"/>
+	     <method name="qryLogLimit"/>
+	     <method name="save"/>
+    </collector>
+        <collector id="orderInfoWeb" class="com.wifi.order.web.OrderInfoWeb">
+	     <method name="getOrder"/>
+	     <method name="queryOrderInfo"/>
+    </collector>
+</mozi>

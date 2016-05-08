@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mozi>
+    <collector id="resTypeWeb" class="com.wifi.res.web.ResTypeWeb">
+	     <method name="getSubNode"/>
+	     <method name="getSubInfo"/>
+	     <method name="save"/>
+    </collector>
+    <collector id="uploadWeb" class="com.wifi.res.web.UploadWeb">
+	     <method name="up"/>
+    </collector>
+    
+    <collector id="resWeb" class="com.wifi.res.web.ResWeb">
+	     <method name="qryInfo"/>
+	     <method name="qryInfoPg"/>
+	     <method name="qryFile"/>
+	     <method name="qryAttr"/>
+	     <method name="qryTag"/>
+	     <method name="save"/>
+	     <method name="saveSub"/>
+	     <method name="qrySubInfo"/>	     
+	     <method name="qrySubFile"/>	     
+	     <method name="del"/>	     
+	     <method name="delSub"/>
+	     <method name="ustate"/>
+	     <method name="qrySpInfo"/>
+	     <method name="fbRes"/>
+	     <method name="publishPanelRess"/>
+	     <method name="qryPanelGroupUrl"/>
+    </collector>
+    <collector id="panelWeb" class="com.wifi.res.web.PanelWeb">
+	     <method name="qryPanel"/>
+	     <method name="qryPanelPg"/>
+	     <method name="qryBoxs"/>
+	     <method name="qryBox"/>
+	     <method name="qryBoxItems"/>
+	     <method name="save"/>
+	     <method name="delete"/>
+	     <method name="copy"/>
+	     <method name="delPnl"/>
+    </collector>
+    
+    <collector id="grpWeb" class="com.wifi.cust.web.PanelGrpWeb">
+	     <method name="qryGrp"/>
+	     <method name="qryGrpPg"/>
+	     <method name="qryGrpDtl"/>
+	     <method name="save"/>
+	     <method name="updateVer"/>
+	     <method name="del"/>
+    </collector>
+    <collector id="custQryWeb" class="com.wifi.cust.web.CustQryWeb">
+	     <method name="qryCustGrpPg"/>
+	     <method name="qryPointPg"/>
+	     <method name="qryCustTree"/>
+    </collector>
+     <collector id="intf" class="com.wifi.intf.web.IntfWeb">
+	     <method name="lgn"/>
+	     <method name="tplData"/>
+	     <method name="custInfo"/>
+    </collector>
+    <collector id="equipWeb" class="com.wifi.cust.web.EquipWeb">
+	     <method name="qryEquipPg"/>
+	     <method name="save"/>
+	     <method name="del"/>
+    </collector>
+    <collector id="uptPkgWeb" class="com.wifi.cust.web.UptPkgWeb">
+	     <method name="qryUptPkgPg"/>
+	     <method name="qryUptLimit"/>
+	     <method name="save"/>
+	     <method name="del"/>
+    </collector>
+    <collector id="custWeb" class="com.wifi.cust.web.CustWeb">
+	     <method name="qryCustPg"/>
+	     <method name="qryCustGroup"/>
+	     <method name="qryCustUpdateStatus"/>
+	     <method name="save"/>
+	     <method name="del"/>
+	     <method name="reset"/>
+    </collector>
+    <collector id="custEquipVisitWeb" class="com.wifi.cust.web.CustEquipVisitWeb">
+	     <method name="qryCustVistInfo"/>
+		 <method name="qryCustVistInfoChart"/>
+		 <method name="qrySingleClientVisitByClientIdAndTime"/>
+    </collector>
+     <collector id="pointWeb" class="com.wifi.cust.web.PointWeb">
+	     <method name="qryPointPg"/>
+	     <method name="save"/>
+	     <method name="del"/>
+    </collector>
+    <collector id="updatelog" class="com.wifi.cust.web.ClientUpdateWeb">
+	     <method name="update"/>	 
+    </collector>
+    <collector id="stat" class="com.wifi.cust.web.AccessInfoWeb">
+	     <method name="stat"/>	 
+    </collector>
+</mozi>
